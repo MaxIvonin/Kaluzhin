@@ -6,7 +6,8 @@ font-family: 'Teko', sans-serif;
 }
 title {margin: 0px auto;}
 body { 
-   background-color: #fff
+    background: linear-gradient(180deg, #5b57e4 0%, #00ffbb 50% );
+   background-size: 150%;
 }
 
 .golova {
@@ -121,8 +122,14 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
    .bg-yellow {
       background-color: #fff9dc;
    }
-   .bg-green {background-color: #e5ffe7;
+   .bg-green {background: linear-gradient(180deg, #e457dd 0%, #3f88c4 50% );
+      background-size: 150%;
 
+   }
+   .bg-green:hover {
+      /* filter: hue-rotate(60deg); */
+      filter: saturate(2);
+      transition: all 0.8s;
    }
   
    .contact {border: none; 
