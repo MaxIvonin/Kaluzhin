@@ -31,6 +31,9 @@ body {
    .golova img {
       margin: 150px 0px 0px 0px ;
    }
+   ol {
+      margin-left: 10px ;
+   }
 }
 /* Box model  >div (обращение к дивам внутри) box-sizing: border-box - 4 контейнера в линию */
 .container { max-width: 1000px;
